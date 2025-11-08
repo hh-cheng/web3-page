@@ -118,7 +118,7 @@ export default function Chat() {
   }
 
   return (
-    <div className="flex flex-col gap-3 h-[70vh]">
+    <div className="flex flex-col gap-3 h-full">
       <div
         ref={scrollRef}
         className="flex-1 overflow-auto p-3 rounded-lg border border-white/10 bg-slate-950/55"
