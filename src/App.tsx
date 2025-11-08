@@ -5,13 +5,13 @@ import './App.css'
 
 export default function App() {
   return (
-    <main className="w-screen h-screen relative">
+    <main className="h-screen overflow-hidden relative">
       {/* Background */}
       <StarFields className="-z-50" />
 
       {/* Content Overlay */}
-      <div className="relative z-10 flex items-center justify-center min-h-screen">
-        <div className="bg-black/55 border border-white/12 rounded-xl p-5 w-[min(92vw,760px)] shadow-2xl backdrop-blur-md">
+      <div className="relative z-10 flex items-center justify-center h-full p-4">
+        <div className="w-[90vw] h-4/5 bg-black/55 border border-white/12 rounded-xl p-5 shadow-2xl backdrop-blur-md">
           <h1 className="text-white text-2xl font-bold select-none">AI Chat</h1>
           <Chat />
         </div>
